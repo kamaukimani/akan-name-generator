@@ -3,6 +3,7 @@ form.addEventListener("submit",function(event) {
     event.preventDefault()
 })
 const result = document.getElementById("output")
+const genderInput = document.querySelector('input[name="choose_gender"]:checked');
 const maleNames =["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 const femaleNames =["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 const bday = document.getElementById("birthdate")
@@ -20,3 +21,7 @@ if (!genderInput) {
     result.innerText = "Select gender";
     return;
 }
+const dayIndex = date.getDay();
+const genderValue = genderInput.value;
+const akanName = genderValue === "male" ? maleNames[dayIndex] : femaleNames[dayIndex];
+result.innerText = "Akan Name is: ${akanName}";
