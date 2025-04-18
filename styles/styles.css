@@ -1,0 +1,32 @@
+.header{
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    font-family: arial;
+    font-size: 10px;
+    display : flex;
+    justify-content: space-evenly;
+    position : fixed;
+    width :100vw;
+    height :40px;
+}
+.div1{
+    margin-top: 50px;
+    padding :20px;
+    border : 1px solid black;
+    border-radius: 10px;
+}
+.fm{
+    border : 1px solid black;
+    text-align: center;
+    padding : 20px;
+    border-radius : 20px;
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+}
