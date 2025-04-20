@@ -11,18 +11,18 @@ const bday = document.getElementById("birthdate");
 const bdayValue = bday.value;
 
 if (!bdayValue) {
-    result.innerText = "Enter a valid birthdate";
+    result.innerText = "ENTER A VALID BIRTHDATE";
     return;
 }
 
 const date = new Date(bdayValue);
 if (isNaN(date.getTime()) || date > new Date()) {
-    result.innerText = "Enter a valid past date";
+    result.innerText = "ENTER A VALID BIRTHDATE";
     return;
 }
 
 if (!genderInput) {
-    result.innerText = "Select gender";
+    result.innerText = "SELECT GENDER";
     return;
 }
 
