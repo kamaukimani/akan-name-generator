@@ -39,3 +39,9 @@ h2{
     font-size: 20px;
     
 }
+.footer{
+    border :1px solid black;
+    padding : 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
