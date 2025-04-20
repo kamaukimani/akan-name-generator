@@ -29,5 +29,5 @@ if (!genderInput) {
 const dayIndex = date.getDay();
 const genderValue = genderInput.value;
 const akanName = genderValue === "male" ? maleNames[dayIndex] : femaleNames[dayIndex];
-result.innerText = `Akan Name is: ${akanName}`;
+result.innerText = `AKAN NAME IS: ${akanName}`;
 });
