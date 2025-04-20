@@ -44,4 +44,5 @@ h2{
     padding : 20px;
     display: flex;
     justify-content: space-evenly;
+    color : red;
 }
