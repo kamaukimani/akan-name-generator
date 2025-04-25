@@ -49,3 +49,11 @@ h2{
     border-radius: 10px;
     background-color: purple;
 }
+p{
+    font-family: Calibri;
+    font-weight: 200;
+}
+.p{
+    font-size: 20px;
+    color: dark black;
+}
