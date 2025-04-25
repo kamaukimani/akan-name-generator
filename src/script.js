@@ -29,5 +29,5 @@ if (isNaN(date.getTime()) || date > new Date()) {
 const dayIndex = date.getDay();
 const genderValue = genderInput.value;
 const akanName = genderValue === "male" ? maleNames[dayIndex] : femaleNames[dayIndex];
-result.innerText = `AKAN NAME IS: ${akanName}`;
+result.innerText = `YOUR AKAN NAME IS: ${akanName}`;
 });
