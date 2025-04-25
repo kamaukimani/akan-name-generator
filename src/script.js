@@ -21,10 +21,10 @@ if (isNaN(date.getTime()) || date > new Date()) {
     return;
 }
 
-if (!genderInput) {
-    result.innerText = "SELECT GENDER";
+/*if (!genderInput) {
+    result.innerText = "!!!SELECT GENDER!!!";
     return;
-}
+}*/
 
 const dayIndex = date.getDay();
 const genderValue = genderInput.value;

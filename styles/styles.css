@@ -61,3 +61,10 @@ p{
     font-size: larger;
     font-family: Arial;
 }
+input{
+    height: 30px;
+    width: 150px;
+}
+#output{
+    color: red;
+}
